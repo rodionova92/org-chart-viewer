@@ -43,6 +43,8 @@ function EmployeeCard({ person, data, hasChildren, collapsed, toggle }) {
         <div className="font-semibold leading-tight">{person.Name}</div>
         <div className="text-gray-700 text-[10px]">{person.Position}</div>
         <div className="text-gray-600 text-[11px]">{person.Department}</div>
+        <div className="text-gray-600 text-[11px]">{person.Mobile}</div>
+        <div className="text-gray-600 text-[11px]">{person.Email}</div>
         <div className="absolute top-1 right-1 text-right text-[10px] space-y-0.5">
           <div className="text-gray-500">{person.Company}</div>
           <div className="text-gray-400 italic">{person.Location}</div>
